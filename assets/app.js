@@ -25,7 +25,7 @@ $(document).ready(function () {
     $("button").on("click", function () {
         var movie = $(this).attr("data-movie");
         var queryURL = "https://api.giphy.com/v1/gifs/search?q=" +
-            movie + "&api_key=Pu0LCAhsKQpr1DW2y8XneeLzGJNVijJT=10"
+            movie + "&api_key=Pu0LCAhsKQpr1DW2y8XneeLzGJNVijJT&limit=10"
         //javascript, jQuery
 
 
